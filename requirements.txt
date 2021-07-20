@@ -1,7 +1,7 @@
 torch==1.9.0
 torchvision==0.10.0
 scikit_image==0.18.2
-streamlit==0.84.1
+streamlit==0.74.0
 numpy==1.18.5
 opencv_python_headless==4.5.2.54
 Pillow==8.3.1
