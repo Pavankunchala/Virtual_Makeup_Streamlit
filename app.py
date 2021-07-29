@@ -73,6 +73,8 @@ if img_file_buffer is not None:
 else:
     demo_image = DEMO_IMAGE
     image = np.array(Image.open(demo_image))
+    
+st.set_option('deprecation.showfileUploaderEncoding', False)
 
 new_image = image.copy()
 
